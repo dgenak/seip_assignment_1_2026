@@ -1,3 +1,12 @@
+## Things I Had to Install
+
+Before starting the assignment, the following tools were required:
+
+- Docker Desktop / Docker Engine — I already had this installed from previous projects.
+- Git — I already had this installed from previous projects.
+- Minikube — I installed this specifically for the assignment to run a local Kubernetes cluster.
+- kubectl — I installed this specifically for the assignment to interact with the Kubernetes cluster.
+
 ## 1) Clone the Repository
 
 To download the project, I executed:
@@ -13,7 +22,7 @@ cd seip_assignment_1_2026
 
 I started the Kubernetes cluster using the Docker driver:
 ```bash
-minikube start --driver=docker
+minikube start
 ```
 
 ## Manifests (Sequential)
